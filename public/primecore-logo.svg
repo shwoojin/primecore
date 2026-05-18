@@ -1,0 +1,14 @@
+<svg width="920" height="330" viewBox="0 0 920 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="920" height="330" fill="white"/>
+  <g transform="translate(70 68)">
+    <path d="M652 38L830 0L822 68H788L793 30L652 38Z" fill="#f27600"/>
+    <path d="M565 63L760 22V47L565 63Z" fill="#0a4384"/>
+    <path d="M610 71L790 53V77H610V71Z" fill="#787f88"/>
+    <text x="0" y="120" fill="#0a4384" font-family="Arial Black, Impact, sans-serif" font-size="104" font-style="italic" font-weight="900" letter-spacing="-8">PRIME</text>
+    <text x="420" y="120" fill="#f27600" font-family="Arial Black, Impact, sans-serif" font-size="104" font-style="italic" font-weight="900" letter-spacing="-8">CORE</text>
+    <path d="M12 176H190" stroke="#787f88" stroke-width="7"/>
+    <path d="M562 176H758" stroke="#787f88" stroke-width="7"/>
+    <text x="225" y="205" fill="#0a4384" font-family="Malgun Gothic, Arial, sans-serif" font-size="70" font-weight="900" letter-spacing="-4">&#54532;&#46972;&#51076;</text>
+    <text x="430" y="205" fill="#f27600" font-family="Malgun Gothic, Arial, sans-serif" font-size="70" font-weight="900" letter-spacing="-4">&#53076;&#50612;</text>
+  </g>
+</svg>
