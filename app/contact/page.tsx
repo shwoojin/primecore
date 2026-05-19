@@ -1,4 +1,5 @@
 import { PageHero } from "@/components/PageHero";
+import { ContactForm } from "@/components/ContactForm";
 import { inquiryTypes } from "@/lib/content";
 
 export default function ContactPage() {
@@ -29,46 +30,7 @@ export default function ContactPage() {
               </div>
             </dl>
           </aside>
-          <form className="contact-form">
-            <fieldset>
-              <legend>문의 유형</legend>
-              <select className="inquiry-select" name="inquiryType" defaultValue="">
-                <option value="" disabled>
-                  선택하기
-                </option>
-                {inquiryTypes.map((type) => (
-                  <option key={type} value={type}>
-                    {type}
-                  </option>
-                ))}
-              </select>
-            </fieldset>
-            <div className="form-grid">
-              <label>
-                회사명
-                <input name="company" type="text" />
-              </label>
-              <label>
-                담당자명
-                <input name="name" type="text" />
-              </label>
-              <label>
-                연락처
-                <input name="phone" type="tel" />
-              </label>
-              <label>
-                이메일
-                <input name="email" type="email" />
-              </label>
-            </div>
-            <label>
-              문의내용
-              <textarea name="message" rows={8} />
-            </label>
-            <button className="button button--primary" type="submit">
-              문의 보내기
-            </button>
-          </form>
+          <ContactForm inquiryTypes={inquiryTypes} />
         </div>
       </section>
     </>
