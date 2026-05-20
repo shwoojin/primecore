@@ -97,9 +97,9 @@ textarea {
 
 .hero {
   position: relative;
-  width: min(1440px, calc(100% - 80px));
-  min-height: 560px;
-  margin: 0 auto;
+  width: 100%;
+  min-height: 620px;
+  margin: 0;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -107,7 +107,7 @@ textarea {
   background:
     linear-gradient(90deg, rgba(5, 19, 36, 0.88), rgba(7, 29, 54, 0.58), rgba(7, 29, 54, 0.16)),
     url("https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1800&q=85") center/cover;
-  border-radius: 0 0 6px 6px;
+  border-radius: 0;
 }
 
 .hero__overlay {
