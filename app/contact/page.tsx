@@ -22,7 +22,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <dt>이메일</dt>
-                <dd>primcore@gmail.com</dd>
+                <dd>preimcore@gmail.com</dd>
               </div>
               <div>
                 <dt>주소</dt>
